@@ -170,8 +170,6 @@ module.exports = {
 
         _heapify(array, length, largest);
       }
-
-      return array;
     }
 
     for (let i = Math.floor(length / 2 - 1); i >= 0; i--) {
