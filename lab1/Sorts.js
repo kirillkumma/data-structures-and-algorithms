@@ -80,7 +80,7 @@ module.exports = {
   shellSort(matrix) {
     const array = Utils.flattenMatrix(matrix);
 
-    let gap = Math.floor(array.length);
+    let gap = Math.floor(array.length / 2);
 
     while (gap > 0) {
       for (let i = gap; i < array.length; i++) {
