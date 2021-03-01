@@ -17,10 +17,10 @@ function compareWithNativeSort(matrix, sort) {
 }
 
 const sort = process.argv[2];
-const m = parseInt(process.argv[3]);
-const n = parseInt(process.argv[4]);
-const minLimit = parseInt(process.argv[5]);
-const maxLimit = parseInt(process.argv[6]);
+const m = process.argv[3] ? parseInt(process.argv[3]) : undefined;
+const n = process.argv[4] ? parseInt(process.argv[4]) : undefined;
+const minLimit = process.argv[5] ? parseInt(process.argv[5]) : undefined;
+const maxLimit = process.argv[6] ? parseInt(process.argv[6]) : undefined;
 
 const matrix = Utils.generateMatrix(m, n, minLimit, maxLimit);
 
