@@ -2,8 +2,13 @@
 
 ## Lab 1 (Sorts)
 ### Script
+Using yarn
 ```bash
 yarn lab1
+```
+Using npm
+```bash
+npm run lab1
 ```
 ### Arguments
 Every next argument requires that all previous arguments were provided
