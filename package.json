@@ -1,9 +1,0 @@
-{
-  "name": "data-structures-and-algorithms",
-  "version": "1.0.0",
-  "author": "Kirill Kumma <kirill.kumma@icloud.com>",
-  "license": "UNLICENSED",
-  "scripts": {
-    "lab1": "node ./lab1"
-  }
-}
